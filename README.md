@@ -1,6 +1,8 @@
 rxjava-zip-example
 ===
 
+[![Build Status](https://travis-ci.org/gregwhitaker/rxjava-zip-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/rxjava-zip-example)
+
 This example shows how multiple Observables can be zipped into an Observable that emits a single item.
 
 In the example three Observables emit random integers once per second.  The emitted integers are collapsed
