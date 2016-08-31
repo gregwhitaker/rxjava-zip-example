@@ -1,6 +1,10 @@
 rxjava-zip-example
 ===
 
+This example shows how multiple Observables can be zipped into an Observable that emits a single item.
+
+In the example three Observables emit random integers once per second.  The emitted integers are collapsed
+into a single Observable that determines which Observable emitted the highest number.
 
 ##Running the Example
 The example can be run using the following gradle command:
